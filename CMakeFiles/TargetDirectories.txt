@@ -1,1 +1,1 @@
-/home/val/Project/FreeTouch/CMakeFiles/FreeTouch.dir
+/home/val/Project/FreeTouch_Project_1.0_Git/CMakeFiles/FreeTouch.dir

@@ -31,8 +31,7 @@ struct FreeTouch_Convexity_Defect{
     float depth;
 };
 
-//string FreeTouch_Cascade_File_Path = "./FreeTouchCascade/FreeTouchCascade1.0.xml";
-string FreeTouch_Cascade_File_Path = "./FreeTouchCascade/haarcascade_frontalface_alt2.xml";
+string FreeTouch_Cascade_File_Path = "./FreeTouchCascade/FreeTouchCascade1.0.xml";
 CascadeClassifier FreeTouch_Cascade;
 //To check the hand first.
 

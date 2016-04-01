@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/val/Project/FreeTouch
+CMAKE_SOURCE_DIR = /home/val/Project/FreeTouch_Project_1.0_Git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/val/Project/FreeTouch
+CMAKE_BINARY_DIR = /home/val/Project/FreeTouch_Project_1.0_Git
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FreeTouch.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/FreeTouch.dir/flags.make
 
 CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o: CMakeFiles/FreeTouch.dir/flags.make
 CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o: FreeTouch.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/val/Project/FreeTouch/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/val/Project/FreeTouch_Project_1.0_Git/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o -c /home/val/Project/FreeTouch/FreeTouch.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o -c /home/val/Project/FreeTouch_Project_1.0_Git/FreeTouch.cpp
 
 CMakeFiles/FreeTouch.dir/FreeTouch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FreeTouch.dir/FreeTouch.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/val/Project/FreeTouch/FreeTouch.cpp > CMakeFiles/FreeTouch.dir/FreeTouch.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/val/Project/FreeTouch_Project_1.0_Git/FreeTouch.cpp > CMakeFiles/FreeTouch.dir/FreeTouch.cpp.i
 
 CMakeFiles/FreeTouch.dir/FreeTouch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FreeTouch.dir/FreeTouch.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/val/Project/FreeTouch/FreeTouch.cpp -o CMakeFiles/FreeTouch.dir/FreeTouch.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/val/Project/FreeTouch_Project_1.0_Git/FreeTouch.cpp -o CMakeFiles/FreeTouch.dir/FreeTouch.cpp.s
 
 CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o.requires:
 .PHONY : CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o.requires
@@ -116,6 +116,6 @@ CMakeFiles/FreeTouch.dir/clean:
 .PHONY : CMakeFiles/FreeTouch.dir/clean
 
 CMakeFiles/FreeTouch.dir/depend:
-	cd /home/val/Project/FreeTouch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/val/Project/FreeTouch /home/val/Project/FreeTouch /home/val/Project/FreeTouch /home/val/Project/FreeTouch /home/val/Project/FreeTouch/CMakeFiles/FreeTouch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/val/Project/FreeTouch_Project_1.0_Git && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/val/Project/FreeTouch_Project_1.0_Git /home/val/Project/FreeTouch_Project_1.0_Git /home/val/Project/FreeTouch_Project_1.0_Git /home/val/Project/FreeTouch_Project_1.0_Git /home/val/Project/FreeTouch_Project_1.0_Git/CMakeFiles/FreeTouch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FreeTouch.dir/depend
 

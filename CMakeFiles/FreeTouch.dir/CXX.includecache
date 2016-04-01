@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/val/Project/FreeTouch/FreeTouch.cpp
+/home/val/Project/FreeTouch_Project_1.0_Git/FreeTouch.cpp
 opencv2/opencv.hpp
-/home/val/Project/FreeTouch/opencv2/opencv.hpp
+/home/val/Project/FreeTouch_Project_1.0_Git/opencv2/opencv.hpp
 iostream
 -
 stdio.h

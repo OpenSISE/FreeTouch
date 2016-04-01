@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/val/Project/FreeTouch
+CMAKE_SOURCE_DIR = /home/val/Project/FreeTouch_Project_1.0_Git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/val/Project/FreeTouch
+CMAKE_BINARY_DIR = /home/val/Project/FreeTouch_Project_1.0_Git
 
 #=============================================================================
 # Target rules for target CMakeFiles/FreeTouch.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/val/Project/FreeTouch
 CMakeFiles/FreeTouch.dir/all:
 	$(MAKE) -f CMakeFiles/FreeTouch.dir/build.make CMakeFiles/FreeTouch.dir/depend
 	$(MAKE) -f CMakeFiles/FreeTouch.dir/build.make CMakeFiles/FreeTouch.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/val/Project/FreeTouch/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/val/Project/FreeTouch_Project_1.0_Git/CMakeFiles  1
 	@echo "Built target FreeTouch"
 .PHONY : CMakeFiles/FreeTouch.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/FreeTouch.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FreeTouch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/val/Project/FreeTouch/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/val/Project/FreeTouch_Project_1.0_Git/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FreeTouch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/val/Project/FreeTouch/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/val/Project/FreeTouch_Project_1.0_Git/CMakeFiles 0
 .PHONY : CMakeFiles/FreeTouch.dir/rule
 
 # Convenience name for target.

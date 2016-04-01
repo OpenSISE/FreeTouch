@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/val/Project/FreeTouch/FreeTouch.cpp" "/home/val/Project/FreeTouch/CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o"
+  "/home/val/Project/FreeTouch_Project_1.0_Git/FreeTouch.cpp" "/home/val/Project/FreeTouch_Project_1.0_Git/CMakeFiles/FreeTouch.dir/FreeTouch.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
