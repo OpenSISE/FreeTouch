@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/val/Project/FreeTouch/FreeTouch.cpp
+opencv2/opencv.hpp
+/home/val/Project/FreeTouch/opencv2/opencv.hpp
+iostream
+-
+stdio.h
+-
+ctime
+-
+

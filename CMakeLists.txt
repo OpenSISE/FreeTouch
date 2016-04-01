@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( FreeTouch )
+find_package( OpenCV REQUIRED )
+add_executable( FreeTouch FreeTouch.cpp )
+target_link_libraries( FreeTouch ${OpenCV_LIBS} )

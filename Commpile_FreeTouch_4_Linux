@@ -1,0 +1,3 @@
+rm -rf cmake_install.cmake  Makefile  CMakeCache.txt CMakeFiles/ FreeTouch
+cmake .
+make
