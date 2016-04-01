@@ -1,12 +1,12 @@
-/****************************
-*							*
-*	FreeTouch				*
-*	Val(ZhenWenJin)			*
+/********************************
+*				*
+*	FreeTouch		*
+*	Val(ZhenWenJin)		*
 *	zhenwenjin@gmail.com	*
-*	ver 1.0 2016.03.11		*
-*	In HuaRuan				*
-*							*
-****************************/
+*	ver 1.0 2016.03.11	*
+*	In HuaRuan		*
+*				*
+********************************/
 
 #include "opencv2/opencv.hpp"
 #include <iostream>
@@ -217,10 +217,10 @@ int main( int argc, const char** argv ){
 
 void FreeTouch_Fill_Hole(const Mat srcBw, Mat &dstBw){
     Size m_Size = srcBw.size();
-    Mat Temp = Mat::zeros(m_Size.height+2,m_Size.width+2,srcBw.type());//延展图像
+    Mat Temp = Mat::zeros(m_Size.height+2,m_Size.width+2,srcBw.type());
     srcBw.copyTo(Temp(Range(1, m_Size.height + 1), Range(1, m_Size.width + 1)));
     floodFill(Temp, Point(0, 0), Scalar(255));
-    Mat cutImg;//裁剪延展的图像
+    Mat cutImg;
     Temp(Range(1, m_Size.height + 1), Range(1, m_Size.width + 1)).copyTo(cutImg);
     dstBw = srcBw | (~cutImg);
 }
